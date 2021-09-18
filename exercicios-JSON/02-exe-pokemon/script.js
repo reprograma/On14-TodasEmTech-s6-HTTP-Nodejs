@@ -30,4 +30,31 @@ const data = [{
 }]
 
 // COMEÇA O EXERCÍCIO
+//apresente no console todos os dados dos pokemons
+//desafio: apresente os types fora da lista  
+//começa o desafio 
+
+
+for(let i =0; i <= data.length-1; i++){
+    let pokemom = data[i] // data[i] é o contador
+    //console.log(pokemom)
+    //console.log(pokemom.name[i])
+    console.log("Nome do pokemom : " + pokemom.name)
+    console.log("Descrição do pokemom : " +pokemom.description)
+    console.log("Site do pokemom : " +pokemom.art_url)
+    
+    console.log("----------------------------------------------- " )
+
+    console.log("Aqui listado somente os tipos sem estar no array " )
+let ListaTipos = pokemom.types
+for (let j = 0; j <= ListaTipos.length-1;j++){
+    console.log("Tipo do pokemom : " +ListaTipos[j])
+}
+}
+
+console.log("----------------------------------------------- " )
+
+
+
+
 
