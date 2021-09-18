@@ -1,6 +1,6 @@
 //Apresente no console cada um dos atributos desse JS
 
-const obj = [
+const jsonDeFilme = [
       {
         "title": "Castle in the Sky",
         "description": "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world."
@@ -22,6 +22,36 @@ const obj = [
         "description": "It’s 1982, and Taeko is 27 years old, unmarried, and has lived her whole life in Tokyo. She decides to visit her family in the countryside, and as the train travels through the night, memories flood back of her younger years: the first immature stirrings of romance, the onset of puberty, and the frustrations of math and boys. At the station she is met by young farmer Toshio, and the encounters with him begin to reconnect her to forgotten longings. In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self."
      }
     ]
-
+// apresente no console cada um desses atributos
     // COMEÇA O EXERCÍCIO
   
+//primeira posição é um contador, a segunda posição é o limite
+
+//estrutura do FOR
+//FOR = [CONTADOR; LIMIITE; PASSOS
+//for (let i=0; i = 10; i=i+1){
+  //console.log(i)
+
+
+  //let listaDeFruta =["amora", "uva","pera", "abacaxi"]
+ // for (let i=0; i <= listaDeFruta.length; i= 1++){
+   // console.log(listaDeFruta[0])
+    //console.log(i)
+  
+
+    for (let i=0; 1 <= jsonDeFilme.length-1; i = 1+1){
+      //console.log(jsonDeFilme[i])
+      let filme = jsonDeFilme[i]
+      console.log(filme.title)
+      console.log(filme.description)
+
+      console.log("..................")
+
+
+    }
+  
+
+  
+
+
+
