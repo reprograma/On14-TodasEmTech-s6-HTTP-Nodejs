@@ -1,6 +1,7 @@
 //Apresente no console cada um dos atributos desse JS
 
-const obj = [
+
+const jsonDeFilmes = [
       {
         "title": "Castle in the Sky",
         "description": "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world."
@@ -25,3 +26,38 @@ const obj = [
 
     // COMEÇA O EXERCÍCIO
   
+//console.log(obj)
+
+/*for(contador; limite; passo){
+  bloco de execução
+}*/
+
+
+/*for(let i=0;i<=4;i++){
+  console.log(i)
+}*/
+
+/*for(obj = [0]; obj <= [3]; obj++){
+  console.log(obj)
+}*/
+
+//console.log(obj[1])
+/*let i
+for( i = 0; i <=obj.length-1; obj++){
+  console.log(obj[i])
+}*/
+
+//LISTAR TODOS OS FILMES NO CONSOLE USANDO O FOR
+for(let i=0; i <= jsonDeFilmes.length-1; i++){
+  //console.log(jsonDeFilmes[i])
+  let filme = jsonDeFilmes[i]
+  console.log("Nome do filme : " + filme.title )
+  console.log("Descrição do filme : " + filme.description)
+  console.log("----------------------------------------------- " )
+}
+
+/*
+//Listando apenas um titulo
+console.log(jsonDeFilmes[0].title)
+//Listando apenas um titulo
+console.log(jsonDeFilmes[0].description)*/
