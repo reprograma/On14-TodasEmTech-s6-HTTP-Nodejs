@@ -1,4 +1,4 @@
-
+//Apresente no console cada um dos atributos desse JS
 
 const jsonDeFilmes = [
       {
@@ -23,19 +23,10 @@ const jsonDeFilmes = [
      }
     ]
 
-//Apresente no console cada um dos atributos desse JS
-// COMEÇA O EXERCÍCIO
-
-
-for(let i=0; i <= jsonDeFilmes.length-1; i++){
+    // COMEÇA O EXERCÍCIO
+for (let i=0; i <= obj.length-1; i++){
+  //console.log(jsonDeFilmes[i])
   let filme = jsonDeFilmes[i]
-
   console.log(filme.title)
   console.log(filme.description)
-
-  console.log("****************************")
 }
-
-  
-
-  
