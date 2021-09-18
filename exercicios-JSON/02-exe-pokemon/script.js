@@ -29,5 +29,10 @@ const data = [{
     "types": ["fire"]
 }]
 
+// aprende no console todos os dados dos pokemons
+//DESAFIO apresente os types fora da lista
 // COMEÇA O EXERCÍCIO
+
+console.log (data)
+
 
