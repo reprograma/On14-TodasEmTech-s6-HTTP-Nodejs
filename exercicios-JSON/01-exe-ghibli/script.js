@@ -31,11 +31,10 @@ for(let i=0; i <= jsonDeFilmes.length-1; i++){
   let filme = jsonDeFilmes[i]
 
   console.log(filme.title)
+  console.log(filme.description)
 
   console.log("****************************")
 }
-
-" VOLTAMOS 15H15 :)"
 
   
 
