@@ -30,4 +30,21 @@ const data = [{
 }]
 
 // COMEÇA O EXERCÍCIO
+/*
+for(let i = 0; i <= data.length-1; i++){
+  console.log(data[i]);
+}
+*/
 
+for(let i = 0; i <= data.length-1; i++){
+  let p = data[i];
+  console.log(p.name);
+  console.log(p.description);
+  console.log(p.art_url);
+  //console.log(p.types);
+
+  let listarPo = p.types
+  for(let count = 0; count <= listarPo.length-1; count++ ){
+  console.log(listarPo[count]);
+  }
+}
