@@ -30,9 +30,15 @@ const data = [{
 }]
 
 // aprende no console todos os dados dos pokemons
-//DESAFIO apresente os types fora da lista
+// DESAFIO apresente os types fora da lista
 // COMEÇA O EXERCÍCIO
 
-console.log (data)
+for (let i = 0; i <= data.length-1; i++) {
+    let pokemon = data[i];
+    console.log (pokemon.name)
+    console.log (pokemon.description)
+    console.log (pokemon.art_url)
+    console.log (pokemon.types)
+}
 
 
