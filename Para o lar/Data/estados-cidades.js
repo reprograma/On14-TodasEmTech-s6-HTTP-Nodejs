@@ -5735,3 +5735,15 @@ const data = [{
     ]
   }
 ]
+
+for (let i = 0; i <= data.length-1; i++) {
+  let geografia = data[i];
+
+  console.log(i)
+  console.log("------------------------")
+  console.log(geografia)
+  console.log("------------------------")
+  console.log(geografia.estados[3])
+  console.log("........................")
+  
+}

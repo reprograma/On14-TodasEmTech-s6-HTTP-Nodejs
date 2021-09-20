@@ -26,16 +26,24 @@ const jsonDeFilmes = [
 //Apresente no console cada um dos atributos desse JS
 // COMEÇA O EXERCÍCIO
 
-
-for(let i=0; i <= jsonDeFilmes.length-1; i++){
+for(let i=0; i <= jsonDeFilmes.length-1; i++ ){
   let filme = jsonDeFilmes[i]
-
   console.log(filme.title)
-
-  console.log("****************************")
+  console.log("******************************************")
+  console.log(filme.description)
+  console.log("******************************************")
 }
 
-" VOLTAMOS 15H15 :)"
+
+// for(let i=0; i <= jsonDeFilmes.length-1; i++){
+//   let filme = jsonDeFilmes[i]
+
+//   console.log(filme.title)
+
+//   console.log("****************************")
+// }
+
+// " VOLTAMOS 15H15 :)"
 
   
 
