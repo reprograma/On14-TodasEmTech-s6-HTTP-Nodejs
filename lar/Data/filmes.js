@@ -78,8 +78,16 @@ const obj = [
 
 for (let i = 0; i <= obj.length-1; i++) {
     let filmes = obj[i];
-    console.log(filmes)
+    // console.log(filmes)
     console.log("**********************")
     console.log(filmes.Director)
+
+    /* let generos = filmes.Genre
+    for (let j = 0; j < generos.length; j++) {
+        console.log(generos[j]);
+    }*/
+    
+    let generos = filmes.Genre.split(' ');
+    console.log(generos[1])
     
 }
