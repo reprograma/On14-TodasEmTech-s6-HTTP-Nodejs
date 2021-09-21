@@ -5736,6 +5736,8 @@ const data = [{
   }
 ]
 
+//mostrar a sigla do estados e a cidade dele
+
 for (let i = 0; i <= data.length-1; i++) {
   let geografia = data[i];
 
@@ -5745,5 +5747,9 @@ for (let i = 0; i <= data.length-1; i++) {
   console.log("------------------------")
   console.log(geografia.estados[3])
   console.log("........................")
+
+ /*  let city = geografia.sigla.split(' ');
+  console.log(city[1]) */
+
   
 }

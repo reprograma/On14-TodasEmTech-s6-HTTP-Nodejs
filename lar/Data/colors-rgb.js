@@ -149,3 +149,23 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+
+//mostrar o nome da chave cor e o valor (numero) da cor
+
+
+for (let i = 0; i <= obj.length-1; i++) {
+    let cores = obj[i]
+    
+    console.log("-----------Cor e numero-------------")
+    console.log(Object.keys(cores)[2])
+    
+    let colorido = cores.aqua
+    for (let j = 0; j < colorido.length; j++) {
+        console.log(cores.aqua[j]);
+    } 
+    console.log("-----------Lista completa de cores-------------")
+    /* console.log(cores) */
+    
+    
+}
