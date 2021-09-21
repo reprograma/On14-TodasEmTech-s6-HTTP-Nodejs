@@ -1,9 +1,22 @@
 
-1 - Qual a relação entre os metodos HTTP e o CRUD?
+>>>>>>>>>>>>>1 - Qual a relação entre os metodos HTTP e o CRUD?
 
-2 - Comente, com exemplos, a diferença entre o PUT e o PATCH.
+Os principais métodos http são:
+post: cria recurso/objeto/dado (create) status http 201
+put: envia atualização de dados que já existia(update) status http 200 (ok)
+get: devolve recurso/objeto(read) status http 200 (ok)
+delete: deleta(delete) status http 204 (no content)
+patch: O método de requisição HTTP PATCH aplica modificações parciais a um recurso.
+CRUD é create, read, update e delete, são operações executadas em banco de dados
 
-3 - Assim como na aula, apresente os dados dos JSONs no console
+A relação entre metodos http e crud é que o metodo http se baseou no crud
+
+>>>>>>>>>>>>2 - Comente, com exemplos, a diferença entre o PUT e o PATCH.
+
+O put pode criar um novo recurso, o patch se usa apenas para alterar os dados de um recurso ja existente, 
+não podendo criar um recurso novo como no put
+
+>>>>>>>>>>>3 - Assim como na aula, apresente os dados dos JSONs no console
 
 4 - Defina o conceito de idempotência e como uma API pode ser idempotente
 
@@ -18,5 +31,5 @@ Respostas:
 5 -
 
 https://www.youtube.com/watch?v=n0DLoSGCjas
-parei em 26 minutos
+parei em 26 minutos 
 
