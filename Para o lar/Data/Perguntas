@@ -1,5 +1,6 @@
 
->>>>>>>>>>>>>1 - Qual a relação entre os metodos HTTP e o CRUD?
+-------------------------------------------------------------------------------------------------
+1 - Qual a relação entre os metodos HTTP e o CRUD?
 
 Os principais métodos http são:
 post: cria recurso/objeto/dado (create) status http 201
@@ -9,26 +10,44 @@ delete: deleta(delete) status http 204 (no content)
 patch: O método de requisição HTTP PATCH aplica modificações parciais a um recurso.
 CRUD é create, read, update e delete, são operações executadas em banco de dados
 
-A relação entre metodos http e crud é que o metodo http se baseou no crud
+-------------------------------------------------------------------------------------------------
+2 - Comente, com exemplos, a diferença entre o PUT e o PATCH.
 
->>>>>>>>>>>>2 - Comente, com exemplos, a diferença entre o PUT e o PATCH.
+O put pode criar um novo recurso, o patch se usa apenas para alterar os dados de um recurso ja existente, não podendo criar um recurso novo como no put
 
-O put pode criar um novo recurso, o patch se usa apenas para alterar os dados de um recurso ja existente, 
-não podendo criar um recurso novo como no put
+-------------------------------------------------------------------------------------------------
+3 - Assim como na aula, apresente os dados dos JSONs no console
 
->>>>>>>>>>>3 - Assim como na aula, apresente os dados dos JSONs no console
+Exercicios colors, filmes e cidades? Feito separado
 
+-------------------------------------------------------------------------------------------------
 4 - Defina o conceito de idempotência e como uma API pode ser idempotente
 
+idempotencia é a propriedade que algumas operações tem de poderem ser aplicadas diversas vvezes sem que o valor do resultado seja alterado, ou seja se tenho meu x valendo 0, qualquer alteração que eu fizer nele, o valor sempre continuará igual ao valor inicial, ou seja x=0.
+
+Idempotente significa que o endpoint pode ser chamado várias vezes sem resultados diferentes. Não importa se o método é chamado apenas uma ou dez vezes. O resultado deve sempre o mesmo. Isso se aplica apenas ao resultado, não ao próprio recurso.
+
+Um método HTTP é idempotente se uma requisição idêntica pode ser feita uma ou mais vezes em sequência com o mesmo efeito enquanto deixa o servidor no mesmo estado. ... Implementados corretamente, o GET , HEAD , PUT , e DELETE são métodos idempotentes, mas não o método POST .
+
+-------------------------------------------------------------------------------------------------
 5 - Cite alguns diferentes padrões de projetos de software
 
-Respostas:
+Padrões de projeto ou design patterns são soluções tipicas para problemas comuns em projeto de software, cada padrão é como uma planta de contrução mas que você pode customizar para resolver um problema em seu codigo
 
-1 -
-2 -
-3 -
-4 -
-5 -
+são divididos em 3 categorias:
+1 - De criação:
+Abstract Factory
+Builder
+
+2 - Estrutural:
+Decorator 
+Composite
+
+3 - Comportamental:
+Iterator
+Command
+
+-------------------------------------------------------------------------------------------------
 
 https://www.youtube.com/watch?v=n0DLoSGCjas
 parei em 26 minutos 
