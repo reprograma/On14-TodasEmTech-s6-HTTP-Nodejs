@@ -1,4 +1,4 @@
-const obj = [
+const filmes = [
     {
         "Title":"10 Things I Hate About You",
         "Year":"1999",
@@ -75,3 +75,19 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+//apresente no console o Title, Plot e Awards
+for(let i = 0 ; i <= filmes.length-1 ; i++){
+    console.log(filmes[i].Title)
+    console.log(filmes[i].Plot)
+    console.log(filmes[i].Awards)
+    console.log("----------------------------------------------------------------------------------")
+}
+
+//DESAFIO: Apresente Genre e Actors numa lista
+const arrayGenreActors = []
+for(let i = 0 ; i <= filmes.length-1 ; i++){
+    arrayGenreActors.push(filmes[i].Genre)
+    arrayGenreActors.push(filmes[i].Actors)
+}
+console.log(arrayGenreActors)

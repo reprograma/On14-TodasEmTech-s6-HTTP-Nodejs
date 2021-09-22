@@ -1,4 +1,4 @@
-const obj = [{
+const colors = [{
     "aliceblue": [240, 248, 255, 1],
     "antiquewhite": [250, 235, 215, 1],
     "aqua": [0, 255, 255, 1],
@@ -149,3 +149,10 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//DESAFIO: apresente o nome da cor e o codigo numa string unica
+//exemplo: "aliceblue - rgb: 240, 248, 255, 1"
+
+for (color in colors[0]){
+    console.log(`${color} - rgb: ${colors[0][color]}`)
+}
