@@ -1,4 +1,5 @@
-const data = [{
+const estadosCidades = [
+  {
     "estados": [
       {
         "sigla": "AC",
@@ -5735,3 +5736,16 @@ const data = [{
     ]
   }
 ]
+
+// Apresente no console o estado,  a sigla e as cidades fora da array
+for(let i = 0; i < estadosCidades[0].estados.length; i++){
+  console.log(`Estado: ${estadosCidades[0].estados[i].nome}`)
+  console.log(`Sigla: ${estadosCidades[0].estados[i].sigla}`)
+  console.log("------------------- \nCidades:\n")
+    for(let j = 0; j < estadosCidades[0].estados[i].cidades.length; j++){
+    console.log(estadosCidades[0].estados[i].cidades[j])
+  }
+  console.log("--------------------------------------")
+}
+
+
