@@ -76,7 +76,7 @@ const filmes = [
     }
 ]
 
-//apresente no console o Title, Plot e Awards
+// Apresente no console o Title, Plot e Awards
 for(let i = 0 ; i <= filmes.length-1 ; i++){
     console.log(filmes[i].Title)
     console.log(filmes[i].Plot)
@@ -84,10 +84,19 @@ for(let i = 0 ; i <= filmes.length-1 ; i++){
     console.log("----------------------------------------------------------------------------------")
 }
 
-//DESAFIO: Apresente Genre e Actors numa lista
+//DESAFIO: Apresente Genre e Actors em uma lista (LISTA SEPARADA POR FILMES)
+for(let i = 0 ; i <= filmes.length-1 ; i++){
+    let arrayGenreActors = []
+    arrayGenreActors.push(filmes[i].Genre)
+    arrayGenreActors.push(filmes[i].Actors)
+    console.log(arrayGenreActors)
+}
+
+//DESAFIO: Apresente Genre e Actors em uma lista (LISTA GERAL)
 const arrayGenreActors = []
 for(let i = 0 ; i <= filmes.length-1 ; i++){
     arrayGenreActors.push(filmes[i].Genre)
     arrayGenreActors.push(filmes[i].Actors)
 }
 console.log(arrayGenreActors)
+

@@ -150,8 +150,8 @@ const colors = [{
     "rebeccapurple": [102, 51, 153, 1]
 }]
 
-//DESAFIO: apresente o nome da cor e o codigo numa string unica
-//exemplo: "aliceblue - rgb: 240, 248, 255, 1"
+//DESAFIO: Apresente o nome da cor e o codigo numa string unica
+//Exemplo: "aliceblue - rgb: 240, 248, 255, 1"
 
 for (color in colors[0]){
     console.log(`${color} - rgb: ${colors[0][color]}`)
