@@ -160,9 +160,8 @@ const obj = [
 
 */
 
-for (let i = 0; i <= obj.length - 1; i++) {
-  let color = obj[i];
-
+for (const value of obj) {
+  const color = value;
   console.log(typeof color);
   console.log(color);
   console.log(
@@ -172,5 +171,3 @@ for (let i = 0; i <= obj.length - 1; i++) {
   console.log(typeof colors);
   console.log(colors);
 }
-
-

@@ -5749,7 +5749,8 @@ for (let i = 0; i <= data.length - 1; i++) {
   let listStates = listing.estados;
   for (let j = 0; j <= listStates.length - 1; j++) {
     let List = listStates[j];
-    console.log(List);
+    //console.log(List);
+    console.log("\n");
     console.log(List.sigla);
     console.log(List.nome);
     let listCities = List.cidades;

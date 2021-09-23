@@ -92,10 +92,13 @@ for (let i = 0; i <= obj.length - 1; i++) {
   console.log(film.Awards);
   let filmGenre = film.Genre;
   let filmG = filmGenre.split();
+  console.log("\n");
+  console.log(`Lista de Gêneros: ${filmG}. \n`);
   let filmActors = film.Actors;
   let filmA = filmActors.split();
-  let filmActor = filmA.concat(filmG);
-  console.log(filmActor);
+  console.log(`Lista de Atores: ${filmA}.\n`);
+  let filmActorG = filmA.concat(filmG);
+  console.log(`Lista de Atores & Gêneros: ${filmActorG}. \n `);
 
   console.log(
     "_________________________________________________________________________________________________________"
