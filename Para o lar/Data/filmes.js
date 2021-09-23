@@ -75,4 +75,24 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
-console.log(typeof(obj))
+
+//
+for (let index = 0; index < obj.length; index++) {
+    const movie = obj[index];
+    console.log(movie.Title)
+    console.log(movie.Plot)
+    console.log(movie.Awards)
+    console.log('***************')
+}
+
+//Apresenta dois array, um para cada categoria
+console.log('Desafio - tentativa 1')
+const genre = obj.map(movie => movie.Genre)
+const actor = obj.map(movie => movie.Actors)
+console.log(genre, actor)
+
+//Aprensa uma lista de generos e atores
+console.log('Desafio - tentativa 2')
+let arrayGenreActor = []
+obj.forEach(movie => { arrayGenreActor.push(movie.Genre), arrayGenreActor.push(movie.Actors)});
+console.log(arrayGenreActor)

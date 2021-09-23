@@ -150,9 +150,6 @@ const obj = [{
     "rebeccapurple": [102, 51, 153, 1]
 }]
 
-// const jsonColor = JSON.stringify(obj);
+const jsonColor = JSON.stringify(obj);
 
-// console.log(jsonColor)
-// console.log(obj)
-console.log(typeof(obj))
-console.log(typeof(obj[0]))
+console.log(jsonColor)
