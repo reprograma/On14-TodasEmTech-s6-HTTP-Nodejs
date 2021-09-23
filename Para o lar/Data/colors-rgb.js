@@ -1,4 +1,4 @@
-const obj = [{
+const colors = [{
     "aliceblue": [240, 248, 255, 1],
     "antiquewhite": [250, 235, 215, 1],
     "aqua": [0, 255, 255, 1],
@@ -150,6 +150,10 @@ const obj = [{
     "rebeccapurple": [102, 51, 153, 1]
 }]
 
-const jsonColor = JSON.stringify(obj);
 
-console.log(jsonColor)
+
+const colorObject = colors[0];
+
+for (var [key, value] of Object.entries(colorObject)) {
+    console.log(key + ' ' + value);
+}
