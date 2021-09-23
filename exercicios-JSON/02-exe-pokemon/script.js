@@ -31,3 +31,25 @@ const data = [{
 
 // COMEÇA O EXERCÍCIO
 
+for (let i = 0; i < data.length; i++) {
+    let pokemon = data[i];
+    
+    console.log(`${pokemon.name}: \n ${pokemon.description} \n imagem: ${pokemon.art_url} \n Tipo: ${pokemon.types.toString()}`);
+    console.log('----------------------------------')
+    
+}
+
+// Resolução professora:
+for(let i=0; i <= data.length-1; i++){
+    let pokemon = data[i]
+    console.log(pokemon.name)
+    console.log(pokemon.description)
+    console.log(pokemon.art_url)
+
+    let listaTipos = pokemon.types
+    for(let j = 0; j <= listaTipos.length-1; j++ ){
+         console.log(listaTipos[j])
+     }
+}
+
+console.log('****************')
