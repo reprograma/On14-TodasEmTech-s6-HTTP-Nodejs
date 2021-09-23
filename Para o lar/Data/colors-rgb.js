@@ -161,9 +161,16 @@ const obj = [
 */
 
 for (let i = 0; i <= obj.length - 1; i++) {
-  let cor = obj[i];
-  console.log(typeof cor);
-  let cores = JSON.stringify(cor);
+  let color = obj[i];
 
-  console.log(cores);
+  console.log(typeof color);
+  console.log(color);
+  console.log(
+    "_______________________________________________________________________________________________"
+  );
+  let colors = JSON.stringify(color);
+  console.log(typeof colors);
+  console.log(colors);
 }
+
+

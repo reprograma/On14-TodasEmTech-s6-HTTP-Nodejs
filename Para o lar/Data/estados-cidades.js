@@ -5744,18 +5744,18 @@ const data = [
 */
 
 for (let i = 0; i <= data.length - 1; i++) {
-  let m = data[i];
+  let listing = data[i];
 
-  let ListarEstados = m.estados;
-  for (let j = 0; j <= ListarEstados.length - 1; j++) {
-    let List = ListarEstados[j];
+  let listStates = listing.estados;
+  for (let j = 0; j <= listStates.length - 1; j++) {
+    let List = listStates[j];
     console.log(List);
     console.log(List.sigla);
     console.log(List.nome);
-    let listarC = List.cidades;
-    for (let c = 0; c <= listarC.length - 1; c++) {
-      let listarCidade = listarC[c];
-      console.log(listarCidade);
+    let listCities = List.cidades;
+    for (let c = 0; c <= listCities.length - 1; c++) {
+      let listTown = listCities[c];
+      console.log(listTown);
     }
   }
 }
