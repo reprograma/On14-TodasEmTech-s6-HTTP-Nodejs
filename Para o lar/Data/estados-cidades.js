@@ -5735,3 +5735,12 @@ const data = [{
     ]
   }
 ]
+
+let estados = data[0].estados;
+
+for (let index = 0; index < estados.length; index++) {
+    let acessaEstados = estados[index];
+    console.log('***************************************')
+    console.log(`Estado: ${acessaEstados.nome} - (${acessaEstados.sigla})`)
+    console.log(`Ele possui ${acessaEstados.cidades.length} cidades, estas são: ${acessaEstados.cidades.toString()}`)
+}
