@@ -149,3 +149,8 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//DESAFIO: Apresentar o nome da cor e o código em uma única string
+for (colors in obj[0]){
+    console.log(`${colors} - rgb: ${obj[0][colors]}`)
+}

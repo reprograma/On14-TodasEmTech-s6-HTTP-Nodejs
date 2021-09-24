@@ -75,3 +75,20 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+//inicio atividade para o lar
+
+for(let c=0; c <= obj.length-1; c++){
+    let movies = obj[c]
+    console.log(movies.Title)
+    console.log(movies.Plot)
+    console.log(movies.Awards)
+    console.log("                           ")
+  }
+ //desafio - Apresente Genre e Actors em uma lista -
+const arrayGenreActors = []
+for(let c = 0 ; c <= obj.length-1 ; c++){
+    arrayGenreActors.push(obj[c].Title)
+    arrayGenreActors.push(obj[c].Genre)
+    arrayGenreActors.push(obj[c].Actors)
+}
+console.log(arrayGenreActors)
