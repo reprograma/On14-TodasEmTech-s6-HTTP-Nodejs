@@ -5735,3 +5735,4 @@ const data = [{
     ]
   }
 ]
+/*3) estados-cidades.js apresente no console o estado,  a sigla e as cidades fora da array*/
