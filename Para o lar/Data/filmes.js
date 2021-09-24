@@ -94,12 +94,14 @@ for (i = 0; i <= filmes.length - 1; i++) {
 console.log("Minha lista de Arrays contendo gênero e atores: ");
 
 let pushArray = [];
+let pushArrayFilmes = [];
 
 for (let j = 0; j <= filmes.length - 1; j++) {
   let pushFilme = filmes[j];
   pushArray.push(pushFilme.Genre);
-  pushArray.push(pushFilme.Actors);
-  console.log(pushArray);
+  pushArrayFilmes.push(pushFilme.Actors);
+  console.log(pushArray.toString());
+  console.log(pushArrayFilmes.toString());
   console.log(
     "*****************************************************************************************************"
   );
