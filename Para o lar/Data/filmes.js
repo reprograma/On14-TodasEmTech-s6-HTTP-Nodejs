@@ -80,7 +80,7 @@ const todosFilmes = [
 
    for (let i = 0; i <= todosFilmes.length-1; i++) {
        let filmes = todosFilmes[i];
-       
+
        console.log (filmes.Title);
        console.log (filmes.Plot);
        console.log (filmes.Awards);
@@ -89,6 +89,6 @@ const todosFilmes = [
 
     //DESAFIO: Apresente Genre e Actors numa lista*/
 
-       let genre = todosFilmes.map(filmes => filmes.Genre)
-       let actor = todosFilmes.map(filmes => filmes.Actors)
-       console.log (genre, actor)
+       let genero = todosFilmes.map(filmes => filmes.Genre)
+       let ator = todosFilmes.map(filmes => filmes.Actors)
+       console.log (genero, ator)
