@@ -5735,3 +5735,15 @@ const data = [{
     ]
   }
 ]
+
+
+for(let i = 0; i <= data[0].estados.length-1; i++){
+  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+  console.log(`Sigla: ${data[0].estados[i].sigla}`)
+  console.log(`Estado: ${data[0].estados[i].nome}`)
+  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+    for(let j = 0; j <= data[0].estados[i].cidades.length-1; j++){
+      console.log(data[0].estados[i].cidades[j])
+  }
+  console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+}
