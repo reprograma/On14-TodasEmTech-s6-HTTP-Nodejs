@@ -75,3 +75,36 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+
+
+    
+for(let i = 0; i <= obj.length-1; i++){
+    let filme = obj[i]
+    console.log(filme.Title)
+    console.log("**************************************")
+    console.log(filme.Plot )
+    console.log("**************************************")
+    console.log(filme.Awards)
+    console.log("**************************************")
+let listaAtores = filme.Actors  
+let listaGeneros = filme.Genre
+let listaAtualizada = listaAtores + listaGeneros
+for(let j = 0; j <= listaAtualizada.length-1; j++){
+    //console.log(listaAtualizada)
+  let arry =[]
+  arry.push(listaAtualizada)
+  
+  for(let k = 0; k <= arry.length-1; k++){
+      console.log(arry[k])
+  }
+
+}
+}
+
+
+
+
+
+
+//b Lembrando que tambem consigo imprimir uma lista de cada vez para que fique melhor organizado 

@@ -26,11 +26,12 @@ const jsonDeFilmes = [
 //Apresente no console cada um dos atributos desse JS
 // COMEÇA O EXERCÍCIO
 
-
+// for é uma (variavel contadora ; limite ; passo do contador )
 for(let i=0; i <= jsonDeFilmes.length-1; i++){
-  let filme = jsonDeFilmes[i]
+  let filme = jsonDeFilmes[i] //cada item da lista sera um filme 
 
   console.log(filme.title)
+  console.log(filme.description)
 
   console.log("****************************")
 }
