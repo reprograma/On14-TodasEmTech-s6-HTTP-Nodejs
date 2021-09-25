@@ -1,4 +1,4 @@
-const obj = [{
+const todasCores = [{
     "aliceblue": [240, 248, 255, 1],
     "antiquewhite": [250, 235, 215, 1],
     "aqua": [0, 255, 255, 1],
@@ -149,8 +149,18 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
-/*2) colors-rgb.js apresente no console o nome da cor e o rgb.
+/*2) colors-rgb.js apresente no console o nome da cor e o rgb.*/
 
+for (let i = 0; i <= todasCores.length-1; i++) {
+    let cor = todasCores[i];
+    console.log (cor)
+   
+}
 
-    DESAFIO: apresente o nome da cor e o codigo numa string unica
+  /*  DESAFIO: apresente o nome da cor e o codigo numa string unica
           exemplo: "aliceblue - rgb: 240, 248, 255, 1" */
+
+  console.log ("\n************ DESAFIO *************\n")        
+  for (cor in todasCores[0]){
+      console.log(`${cor} - rgb: ${todasCores[0][cor]}`)
+  }

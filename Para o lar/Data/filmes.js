@@ -88,7 +88,6 @@ const todosFilmes = [
        } 
 
     //DESAFIO: Apresente Genre e Actors numa lista*/
-
        let genero = todosFilmes.map(filmes => filmes.Genre)
        let ator = todosFilmes.map(filmes => filmes.Actors)
        console.log (genero, ator)
