@@ -5735,3 +5735,25 @@ const data = [{
     ]
   }
 ]
+
+// apresente no console o estado, a sigla e as cidades fora da array
+
+
+let estCidades = data[0].estados
+
+
+for (i = 0; i <= estCidades.length-1; i++){
+  
+let listaEstados = estCidades[i].sigla
+console.log(listaEstados)
+
+let listaNomes = estCidades[i].nome
+console.log(listaNomes)
+
+let listaCidades = estCidades[i].cidades.toString()
+console.log(listaCidades)
+
+console.log('##################################')
+  
+}
+ 
