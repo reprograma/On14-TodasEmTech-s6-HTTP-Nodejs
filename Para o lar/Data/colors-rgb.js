@@ -158,6 +158,6 @@ for (let i = 0; i <= cores.length - 1; i++) {
   console.log(cor);
 
   for (cor in cores[0]) {
-    console.log(`${cor} - rgb: ${cores[0][cor]}`);
+    console.log(`${cor} - rgba: ${cores[0][cor]}`);
   }
 }
