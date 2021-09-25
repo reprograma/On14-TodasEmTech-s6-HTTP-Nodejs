@@ -1,0 +1,47 @@
+ATIVIDADE TEÓRICA - INTRO APIs
+
+//Qual a relação entre os métodos HTTP e o CRUD?
+
+Resposta: O protocolo HTTP define um conjunto de métodos de requisição responsáveis por indicar a ação a ser executada para um dado recurso. 
+
+São comumente referenciados como HTTP Verbs (Verbos):
+- GET, HEAD, POST, PUT, DELET, CONNECT, OPTIONS, TRACE, PATCH
+
+CRUD são metodos padrões para trabalhar com banco de dados
+
+- C: Create
+- R: Read
+- U: Update
+- D: Delete
+==================================================
+
+//Comente, com exemplos, a diferença entre o PUT e o PATCH.
+
+Resposta: O PUT é usado para alteração de um dado completo, já o PATCH para atualização parcial. 
+Geralmente, ao usar-se o PUT, fica legível que a alteração do dado será com referência a entidade completa.
+---PUT:---
+Exemplo: (/usuario/0101):
+
+Resultado: {'id': 1234, 'name': 'Joao', 'idade': 25, 'documento': '123.321.12-X'}
+
+---PATCH:---
+
+Exemplo: (/usuario/0101) :
+
+Resultado: {'name': 'João'}
+
+==================================================
+
+//Cite alguns diferentes padrões de projetos de software
+
+Resposta: 
+Padrões de Criação: Tem como objetivo abstrair a instanciação de objetos. Com eles, o sistema vai solicitar um objeto de um determinado tipo e o terá prontinho, sob demanda, sem nem se preocupar com as nuances da criação. Fazendo um paralelo com o mundo real, uma empresa automobilística quando precisa de amortecedores, ela terceiriza (solicita-os) e então os instala em seus carros, sem se preocupar com o todo envolvido na criação desse componente.
+
+Padrões estruturais: Os padrões dessa categoria se preocupam em melhor organizar a estrutura das classes e os relacionamentos entre classes e objetos.
+
+Padrões comportamentais: Os padrões dessa categoria atuam diretamente na delegação de responsabilidades, definindo como os objetos devem se comportar e se comunicar. 
+
+==================================================
+
+//Defina o conceito de idempotência e como uma API pode ser idempotente
+Resposta: A idempotência é a propriedade que algumas operações têm de poderem ser aplicadas várias vezes sem que o valor do resultado se altere após a aplicação inicial. Um método pode ser idempotente se uma requisição idêntica pode ser feita uma ou mais vezes em sequência com o mesmo efeito enquanto deixa o servidor no mesmo estado. 
