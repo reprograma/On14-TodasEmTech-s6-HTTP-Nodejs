@@ -160,14 +160,14 @@ const obj = [
 
 */
 
-for (const value of obj) {
-  const color = value;
-  console.log(typeof color);
+for (let i = 0; i <= obj.length - 1; i++) {
+  let color = obj[i];
   console.log(color);
   console.log(
     "_______________________________________________________________________________________________"
   );
-  let colors = JSON.stringify(color);
-  console.log(typeof colors);
-  console.log(colors);
+  for (color in obj[0]) {
+    let colors = JSON.stringify({ color, rgb: obj[0][color] });
+    console.log(colors);
+  }
 }
