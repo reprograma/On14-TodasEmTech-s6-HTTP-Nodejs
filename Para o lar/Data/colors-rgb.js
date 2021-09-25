@@ -1,4 +1,4 @@
-const obj = [{
+const colors_obj = [{
     "aliceblue": [240, 248, 255, 1],
     "antiquewhite": [250, 235, 215, 1],
     "aqua": [0, 255, 255, 1],
@@ -149,3 +149,12 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+for(let i = 0; i <= colors_obj.length-1; i++){
+    let cores = colors_obj[i];
+    console.log(cores);
+  
+    for (cores in colors_obj[0]){
+      console.log(`${cores} - rgb: ${colors_obj[0][cores]}`);
+    }
+}

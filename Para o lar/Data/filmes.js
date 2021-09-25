@@ -1,4 +1,4 @@
-const obj = [
+const movies_obj = [
     {
         "Title":"10 Things I Hate About You",
         "Year":"1999",
@@ -75,3 +75,21 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+for (let i = 0; i <= movies_obj.length-1; i++) {
+    console.log('=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
+    console.log(movies_obj[i].Title);
+    console.log(movies_obj[i].Plot);
+    console.log(movies_obj[i].Awards);
+}
+
+console.log('-------------------------------------------------------------------------------------------')
+
+let arrayDesafio = []
+for (let j = 0; j <= movies_obj.length-1; j++) {
+    console.log(movies_obj[j].Title)
+    arrayDesafio.push(movies_obj[j].Actors);
+    arrayDesafio.push(movies_obj[j].Genre);
+    console.log(arrayDesafio);
+  
+}
