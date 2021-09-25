@@ -149,3 +149,25 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+       
+//colors-rgb.js apresente no console o nome da cor e o rgb.
+
+
+console.log(obj[0])
+
+  
+
+//DESAFIO: apresente o nome da cor e o codigo numa string unica
+         // exemplo: "aliceblue - rgb: 240, 248, 255, 1"
+
+console.log('-- Abaixo segue desafio:--')
+
+
+for (elemento in obj[0]){
+   
+console.log(`${elemento} - rgb: ${obj[0][elemento]}`)
+
+}
+ 
+  
