@@ -75,3 +75,31 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+// filmes.js 
+//    apresente no console o Title, Plot e Awards
+//    DESAFIO: Apresente Genre e Actors numa lista
+for (let i = 0; i <= obj.length-1; i++) {
+    const filmes = obj[i];
+
+    console.log(filmes.Title)
+    console.log(filmes.Plot)
+    console.log(filmes.Awards)
+    console.log("*****************************************************")
+}
+    let genero = obj.map(filmes => filmes.Genre)
+    let atores = obj.map(filmes => filmes.Actors)
+    console.log(genero, atores)
+
+
+
+
+// let listaGenre = filmes.Genre
+// for(let j=0; j <= listaGenre-1; j++){
+//     console.log(listaGenre[j])
+
+//     let listaActors = filmes.Actors
+//     for(let k=0; k <= listaActors-1; k++){
+//         console.log(listaActors[k])
+    // }
+// }
