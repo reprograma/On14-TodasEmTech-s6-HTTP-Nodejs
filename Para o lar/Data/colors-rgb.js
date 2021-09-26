@@ -151,3 +151,11 @@ const obj = [
     rebeccapurple: [102, 51, 153, 1],
   },
 ];
+
+var objNew = obj[0];
+var objValues = Object.values(objNew);
+var objkey = Object.keys(objNew);
+
+for (let i = 0; i < objkey.length; i++) {
+  console.log(`${objkey[i]} ${objValues[i]}`);
+}

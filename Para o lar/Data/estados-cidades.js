@@ -5737,10 +5737,10 @@ const data = [
   },
 ];
 
-for (var i = 0; i < estados.length; i++) {
-  for (var j = 0; j < sigla.length; j++);
-  for (var k = 0; k < cidades.length; k++);
-  const noArrayCity = data.estados[i].sigla[j].cidades[k];
-  console.log(noArrayCity);
-  //console.log(printStateCity);
+for (let i = 0; i < data[0].estados.length; i++) {
+  console.log(data[0].estados[i].sigla);
+  console.log(data[0].estados[i].nome);
+  for (let j = 0; j < data[0].estados[i].cidades.length; j++) {
+    console.log(data[0].estados[i].cidades[j]);
+  }
 }
