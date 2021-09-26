@@ -5735,3 +5735,15 @@ const data = [{
     ]
   }
 ]
+
+let estado = data[0].estados;   // a variável estado vai receber as informações de cada objeto "estados" nas posições do array, começando com o [0].
+
+for (let i = 0; i <= estado.length-1; i++) { 
+
+  let estadosBra = estado[i];
+  
+  console.log("Nome do estado: " + estadosBra.nome);
+  console.log("Sigla: " + estadosBra.sigla);
+  console.log("Cidades do estado: " + estadosBra.cidades.toString()); //A função toString vai pegar um array e tansformar em string, texto corrido.
+  console.log("____________________________________________________________________________________________________________________________________");
+} 
