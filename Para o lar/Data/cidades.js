@@ -5729,14 +5729,12 @@ const data = [{
           "Tupirama",
           "Tupiratins",
           "Wanderlândia",
-          "Xambioá"
+          "Xambioá",
         ]
       }
     ]
   }
 ]
-
-
 
 let estado = data[0].estados
 console.log(estado)
@@ -5754,3 +5752,16 @@ for (let i=0; i<= estado.length-1; i++) {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+  
+
+  

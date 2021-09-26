@@ -149,3 +149,14 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+//for (i=0; i<= obj.length-1; i++){ Não precisa do for
+
+    console.log(obj);
+//}
+console.log('XXXXXXXXXXXXXX DESAFIO EM LISTA - STRING xxxxxxxxxxxxxxxxxx' )
+
+for (cor in obj[0]) {
+    console.log(`${cor} - rgb; ${obj[0][cor]}`)
+
+  }       

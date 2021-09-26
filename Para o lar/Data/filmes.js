@@ -75,3 +75,45 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+/*
+for(let i = 0; i <= obj.length-1; i++) {
+
+    let filmes= obj[i];
+    
+    console.log(filmes.Title);
+    console.log(filmes.Plot);
+    console.log(filmes.Awards);
+    console.log('**************')
+  
+  }
+  
+  //DESAFIO: Apresente Genre e Actors numa lista
+  console.log('-- Abaixo segue desafio: --')
+  
+  for(let j = 0; j <= obj.length-1; j++) {
+  
+      let lista = obj[j];
+     
+     let genero = [lista.Genre];
+     console.log(genero);
+  
+     let atores = [lista.Actors];
+     console.log(atores);
+  
+  }
+  */
+
+  let lista = [ ] 
+
+
+ for (let j = 0; j < obj.length-1; j++) {
+    const procurar = obj[j];
+
+       lista.push (procurar.Genre);
+       lista.push (procurar.Actors);
+
+}
+console.log(lista); 
+
+
+
