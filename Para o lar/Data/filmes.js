@@ -78,12 +78,19 @@ const obj = [
 
 for(let i=0; i <= obj.length-1; i++){
     let filmes = obj[i]
+    console.log(filmes.Title);
     console.log(filmes.Plot);
     console.log(filmes.Awards);
     //percorrer nova lista
-    //let listaGenre = filmes.Genre
-    //for(let j=0; j <= listaGenre.length-1; j++){
-      //  console.log(listaGenre[j]);
-    //}
+    let listaGenre = filmes.Genre
+    for(let j=0; j <= listaGenre.length-1; j++){
+        //console.log(listaGenre);
+    }
+    let listaActors = filmes.Actors
+    for(let l= 0; l <= listaActors.length-1; l++){
+        //console.log(listaActors);
+    }
     
+    let genreActors = listaGenre.concat(listaActors)
+        console.log(genreActors);
 }
