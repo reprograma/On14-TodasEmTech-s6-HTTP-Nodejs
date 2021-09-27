@@ -5735,3 +5735,15 @@ const data = [{
     ]
   }
 ]
+for(let i = 0; i <= estados_cidades[0].estados.length-1; i++){
+ 
+  
+  console.log(`Sigla: ${estados_cidades[0].estados[i].sigla}`)
+  console.log(`Estado: ${estados_cidades[0].estados[i].nome}`)
+  
+
+
+    for(let j = 0; j <= estados_cidades[0].estados[i].cidades.length-1; j++){
+      console.log(estados_cidades[0].estados[i].cidades[j])
+  }
+}
