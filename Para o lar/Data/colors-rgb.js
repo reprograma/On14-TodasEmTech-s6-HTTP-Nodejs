@@ -149,3 +149,11 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+console.log('*******************************');
+console.log('*           CORES             *');
+console.log('*******************************');
+
+for (cores in obj[0]){
+    console.log(`${cores} - rgb: ${obj[0][cores]}` )
+}

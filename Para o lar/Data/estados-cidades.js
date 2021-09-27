@@ -5735,3 +5735,17 @@ const data = [{
     ]
   }
 ]
+
+console.log('*******************************');
+console.log('*           ESTADOS           *');
+console.log('*******************************');
+
+for(let i = 0; i <= data[0].estados.length-1; i++){
+  console.log('*************************************************************************************************************************************')
+  console.log(`--> ${data[0].estados[i].sigla}`)
+  console.log(`--> ${data[0].estados[i].nome}`)
+
+    for(let j = 0; j <= data[0].estados[i].cidades.length-1; j++){
+      console.log(`> ${data[0].estados[i].cidades[j]}`)
+  }
+}
