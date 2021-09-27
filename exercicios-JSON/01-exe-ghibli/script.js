@@ -1,5 +1,6 @@
 //Apresente no console cada um dos atributos desse JS
 
+
 const obj = [
       {
         "title": "Castle in the Sky",
@@ -14,14 +15,21 @@ const obj = [
         "description": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her."
       },
       {
-        "title": "Kiki's Delivery Service",
+       "title": "Kiki's Delivery Service",
         "description": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service."
       },
       {
         "title": "Only Yesterday",
-        "description": "It’s 1982, and Taeko is 27 years old, unmarried, and has lived her whole life in Tokyo. She decides to visit her family in the countryside, and as the train travels through the night, memories flood back of her younger years: the first immature stirrings of romance, the onset of puberty, and the frustrations of math and boys. At the station she is met by young farmer Toshio, and the encounters with him begin to reconnect her to forgotten longings. In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self."
+        'description': "It’s 1982, and Taeko is 27 years old, unmarried, and has lived her whole life in Tokyo. She decides to visit her family in the countryside, and as the train travels through the night, memories flood back of her younger years: the first immature stirrings of romance, the onset of puberty, and the frustrations of math and boys. At the station she is met by young farmer Toshio, and the encounters with him begin to reconnect her to forgotten longings. In lyrical switches between the present and the past, Taeko contemplates the arc of her life, and wonders if she has been true to the dreams of her childhood self."
      }
     ]
 
     // COMEÇA O EXERCÍCIO
   
+for(let i=0; i<= obj.length-1; i++){
+  //console.log(obj[i])
+  let filme = obj[i]
+  console.log(filme.title)
+  console.log(filme.description)
+  console.log("****************************")
+}
