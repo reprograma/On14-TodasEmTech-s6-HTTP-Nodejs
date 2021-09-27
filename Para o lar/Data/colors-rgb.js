@@ -149,3 +149,23 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+
+console.log("______________________________________________________");
+console.log(   "Atividade Color Daniele Vilares "    );
+console.log("______________________________________________________");
+
+
+ //for (let index = 0; index <= obj.length-1; index++) {
+ //let cor = obj[0];
+   // console.log(cor.toString());
+
+  //}
+
+
+
+ for (cor in obj[0] ){
+
+  console.log(`${cor} - rgb: ${obj[0][cor]}`)
+
+  }
+

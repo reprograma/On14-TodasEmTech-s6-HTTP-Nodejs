@@ -31,3 +31,23 @@ const data = [{
 
 // COMEÇA O EXERCÍCIO
 
+
+   for (let i = 0; i < data.length-1; i++) {
+       const pokemo = data[i];
+       console.log(pokemo.name);
+       console.log(pokemo.description);
+       console.log(pokemo.art_url);
+       
+       console.log("----------------------------------");
+   
+       const element = pokemo.types
+   for (let index = 0; index < element.length-1; index++) {
+    
+    console.log(element[index])
+} 
+}
+
+
+
+    
+       

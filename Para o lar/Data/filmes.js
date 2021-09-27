@@ -75,3 +75,36 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+console.log("______________________________________________________");
+console.log(   "Atividade Filmes Daniele Vilares "    );
+console.log("______________________________________________________");
+
+for (let index = 0; index < obj.length-1; index++) {
+    const filme = obj[index];
+    
+    console.log(filme.Title);
+    console.log(filme.Plot);
+    console.log(filme.Awards);
+  
+}
+
+
+console.log("______________________________________________________");
+console.log("Segue lista com genre e Actors " );
+console.log("______________________________________________________");
+
+
+    let lista = [ ]
+
+
+ for (let j = 0; j < obj.length-1; j++) {
+    const procurar = obj[j];
+
+       lista.push (procurar.Genre);
+       lista.push (procurar.Actors);
+
+}
+console.log(lista);
+
+

@@ -1,6 +1,5 @@
-const data = [{
-    "estados": [
-      {
+const estados = [{
+    
         "sigla": "AC",
         "nome": "Acre",
         "cidades": [
@@ -5733,5 +5732,37 @@ const data = [{
         ]
       }
     ]
-  }
-]
+  
+
+
+console.log("______________________________________________________");
+console.log(   "Atividade Cidades Daniele Vilares "    );
+console.log("______________________________________________________");
+
+
+for (let index = 0; index <= estados.length-1; index++) {
+  const procurar = estados[index];
+ 
+  console.log(procurar.nome);
+  
+  console.log(procurar.sigla);
+
+}
+
+console.log("______________________________________________________");
+console.log("________________Lista Cidades__________________________");
+
+
+for (let i = 0; i <= estados.length-1; i++) {
+  const procurarando = estados[i];
+ 
+
+let listaCidades=procurarando.cidades
+for (let j = 0; j <= listaCidades.length-1; j++) {
+  let element = listaCidades[j];
+  
+  console.log(element);
+}
+
+}
+
