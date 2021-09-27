@@ -155,12 +155,6 @@ console.log(   "Atividade Color Daniele Vilares "    );
 console.log("______________________________________________________");
 
 
- //for (let index = 0; index <= obj.length-1; index++) {
- //let cor = obj[0];
-   // console.log(cor.toString());
-
-  //}
-
 
 
  for (cor in obj[0] ){
