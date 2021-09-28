@@ -1,5 +1,5 @@
-const data = [{
-    "estados": [
+const estados = [
+
       {
         "sigla": "AC",
         "nome": "Acre",
@@ -5733,5 +5733,32 @@ const data = [{
         ]
       }
     ]
-  }
-]
+
+
+console.log("Início exercício 3");
+
+    for (let i = 0;  i <= estados.length-1; i++) {
+      let listaEstados =  estados[i].nome +" - " + estados[i].sigla;
+
+      let arrayCidades = estados[i].cidades;
+      
+     // Criei um for dentro do for
+      let cidadesConcatenada = "";
+      for(let k=0; k<=arrayCidades.length-1; k++){
+        
+        let acentuacao = ", ";
+        if(k == arrayCidades.length-1){
+          acentuacao =".";
+        }
+        
+        cidadesConcatenada += arrayCidades[k] + acentuacao;
+      }
+      
+      listaEstados += " \n" + cidadesConcatenada;
+
+      console.log(listaEstados)
+
+      console.log("******************************************************************************************")
+    }
+
+    console.log("Fim exercício 3");
