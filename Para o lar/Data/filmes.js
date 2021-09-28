@@ -75,3 +75,15 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+//Exercício para o lar
+
+for (let i = 0; i <= obj.length-1; i++){
+    let filmes = obj[i]
+    console.log(filmes.Title);
+    console.log(filmes.Plot);
+    console.log(filmes.Awards);
+    
+}
+
+// Desafio: Apresente Genre e Actors numa lista
