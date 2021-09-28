@@ -29,5 +29,23 @@ const data = [{
     "types": ["fire"]
 }]
 
+
+//apresente no console todos os dados dos pokemons
+for (let i=0; i<= data.length-1; i++){  //for variavel i padrão se tiver for for dentro de for usa j k
+    let pokemon = data[i]
+    
+    // console.log (pokemon.name)
+    // console.log(pokemon.description)
+    // console.log(pokemon.art_url)
+    // console.log(pokemon.types)
+
+    let listaTipos = pokemon.types
+    for( let j =0; j<= listaTipos.length-1;  j++){
+        console.log(listaTipos[j])
+    }
+}
+//desafio: apresente os types fora da lista for dentro do for
 // COMEÇA O EXERCÍCIO
+
+
 
