@@ -157,6 +157,5 @@ const obj = [{
 
 let cores = obj[0]
 for (const key in cores) {
-    console.log(`${key}  - rgb:  ${cores[key]}  `)
+    console.log(`${key} - rgb:  ${cores[key]}   `)
 }
-   
