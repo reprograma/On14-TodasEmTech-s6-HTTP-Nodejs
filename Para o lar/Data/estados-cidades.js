@@ -5735,3 +5735,27 @@ const data = [{
     ]
   }
 ]
+
+let estCidades = data[0].estados
+console.log(estCidades)
+for (let i  = 0; i <= estCidades.length-1; i++){
+
+
+
+  let listaEstados = estCidades[i]
+  console.log(listaEstados.sigla)
+
+ 
+  console.log(listaEstados.nome)
+
+  console.log(listaEstados.cidades.toString())
+
+
+
+
+  console.log("---------------------------")
+
+
+
+
+}

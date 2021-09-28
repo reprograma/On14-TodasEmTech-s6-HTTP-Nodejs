@@ -1,4 +1,4 @@
-const obj = [
+const filmes = [
     {
         "Title":"10 Things I Hate About You",
         "Year":"1999",
@@ -75,3 +75,19 @@ const obj = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
+
+for (let index = 0; index < filmes.length; index++) {
+    const cinema = filmes[index];
+    console.log(cinema.Title)
+    console.log(cinema.Plot)
+    console.log(cinema.Awards)
+    console.log("-------------------------")
+}    
+ let atores = []
+
+ for (let i = 0; i < filmes.length; i++) {
+     const movies = filmes[i];
+     atores.push(movies.Actors)
+     atores.push(movies.Genre)
+     console.log(atores)
+ }
