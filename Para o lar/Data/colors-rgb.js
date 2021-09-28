@@ -155,7 +155,8 @@ const obj = [{
 //DESAFIO: apresente o nome da cor e o codigo numa string unica
 //exemplo: "aliceblue - rgb: 240, 248, 255, 1"
 
-let cores = obj.length
-for(let index = 0; index <= cores-1;index++) {
-    console.log(cores[index])
+let cores = obj[0]
+for (const key in cores) {
+    console.log(`${key}  -rgb ${cores[key]}  `)
 }
+   
