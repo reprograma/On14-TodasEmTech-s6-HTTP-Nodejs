@@ -5735,3 +5735,15 @@ const data = [{
     ]
   }
 ]
+let lista = data[0].estados
+for (let i=0; i <= lista.length-1; i++) {
+  
+  
+  let listaEstado = lista[i];
+  console.log(listaEstado.nome);
+  console.log(listaEstado.sigla);
+  console.log(listaEstado.cidades);
+  console.log("*********")
+}
+
+

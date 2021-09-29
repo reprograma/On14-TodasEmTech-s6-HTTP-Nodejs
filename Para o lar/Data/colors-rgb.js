@@ -164,4 +164,4 @@ for (let cor in color[0]) {
     console.log(cor + "- rgb:" + color[0][cor]);
 }
 
-//Consegui rodar  porém ainda estou com dúvidas no código na parte do desafio..
+//Consegui rodar  porém ainda estou com dúvidas no código na parte do desafio.....
