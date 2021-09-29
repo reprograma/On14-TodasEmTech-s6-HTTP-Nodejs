@@ -149,7 +149,6 @@ const color = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
-const color =[{"aliceblue":[240,248,255,1]},{"Joaoblue":[000,000,000,1]}]
 
 for (let i=0; i <= color.length-1; i++) {
 
