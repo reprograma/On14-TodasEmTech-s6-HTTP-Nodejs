@@ -1,4 +1,4 @@
-const obj = [{
+const color = [{
     "aliceblue": [240, 248, 255, 1],
     "antiquewhite": [250, 235, 215, 1],
     "aqua": [0, 255, 255, 1],
@@ -149,3 +149,20 @@ const obj = [{
     "yellowgreen": [154, 205, 50, 1],
     "rebeccapurple": [102, 51, 153, 1]
 }]
+const color =[{"aliceblue":[240,248,255,1]},{"Joaoblue":[000,000,000,1]}]
+
+for (let i=0; i <= color.length-1; i++) {
+
+    let listaCores = color[i]
+    console.log(listaCores)
+    console.log("********DESAFIO CORES EM STRING ***************")
+
+}
+
+//DESAFIO
+
+for (let cor in color[0]) {   
+    console.log(cor + "- rgb:" + color[0][cor]);
+}
+
+//Consegui rodar  porém ainda estou com dúvidas no código...
