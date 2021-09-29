@@ -95,5 +95,5 @@ for (let j=0; j <= filmes.length-1; j++) {
     }
 
    console.log (listaFilmes.Genre);
-    console.log("*********")
+    console.log("********")
 }
