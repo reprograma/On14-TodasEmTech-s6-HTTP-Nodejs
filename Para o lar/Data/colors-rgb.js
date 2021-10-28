@@ -150,7 +150,14 @@ const obj = [{
     "rebeccapurple": [102, 51, 153, 1]
 }]
 
-//Exercício para o lar
-for (let cor in obj){
-    console.log(obj[cor])
+//Exercício para o lar 
+//2) colors-rgb.js apresente no console o nome da cor e o rgb.
+
+for (const cor in object) {
+    console.log()
 }
+
+// DESAFIO: apresente o nome da cor e o codigo numa string unica
+for (const cor in obj[0]){
+    console.log(`${cor}: -rgb ${obj[0][cor]}`)
+} 

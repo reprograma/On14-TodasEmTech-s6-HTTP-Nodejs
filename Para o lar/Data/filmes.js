@@ -83,7 +83,10 @@ for (let i = 0; i <= obj.length-1; i++){
     console.log(filmes.Title);
     console.log(filmes.Plot);
     console.log(filmes.Awards);
-    
 }
 
 // Desafio: Apresente Genre e Actors numa lista
+ for (let lista of obj){
+     console.log(lista.Genre);
+     console.log(lista.Actors);
+ }
