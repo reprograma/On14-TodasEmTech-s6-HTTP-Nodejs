@@ -30,22 +30,27 @@ const data = [{
 }]
 
 
+// COMEÇA O EXERCÍCIO
 //apresente no console todos os dados dos pokemons
-for (let i=0; i<= data.length-1; i++){  //for variavel i padrão se tiver for for dentro de for usa j k
+//desafio: apresente os types fora da lista 
+//usa um for dentro do for para percorrer um array dentro do objeto- (ou toString()).
+// no for variavel i(index) é padrão, mas se tiver for  dentro de for usa-se j. 
+
+for (let i=0; i<= data.length-1; i++){  
     let pokemon = data[i]
     
-    // console.log (pokemon.name)
-    // console.log(pokemon.description)
-    // console.log(pokemon.art_url)
-    // console.log(pokemon.types)
+      console.log (pokemon.name)
+      console.log(pokemon.description)
+      console.log(pokemon.art_url)
+      //console.log(pokemon.types)
 
     let listaTipos = pokemon.types
     for( let j =0; j<= listaTipos.length-1;  j++){
         console.log(listaTipos[j])
     }
 }
-//desafio: apresente os types fora da lista for dentro do for
-// COMEÇA O EXERCÍCIO
+
+
 
 
 
