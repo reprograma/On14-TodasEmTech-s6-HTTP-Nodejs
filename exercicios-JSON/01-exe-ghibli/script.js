@@ -1,6 +1,6 @@
 
 
-const jsonDeFilmes = [
+const jsonDeFilmes = [ 
       {
         "title": "Castle in the Sky",
         "description": "The orphan Sheeta inherited a mysterious crystal that links her to the mythical sky-kingdom of Laputa. With the help of resourceful Pazu and a rollicking band of sky pirates, she makes her way to the ruins of the once-great civilization. Sheeta and Pazu must outwit the evil Muska, who plans to use Laputa's science to make himself ruler of the world."
@@ -23,19 +23,22 @@ const jsonDeFilmes = [
      }
     ]
 
-//Apresente no console cada um dos atributos desse JS
-// COMEÇA O EXERCÍCIO
+    //Apresente no console cada um dos atributos desse JS
+    // COMEÇA O EXERCÍCIO
+    // for(contador(i ou j); limite; passo{
+    // bloco de execuçao}
+    
+    for (let i = 0; i <=jsonDeFilmes.length-1; i++){
+      let filme = jsonDeFilmes[i];
+      console.log(filme.title);
+      console.log(filme.description);
+      console.log("*********************************");
+    }
+    
+   
 
 
-for(let i=0; i <= jsonDeFilmes.length-1; i++){
-  let filme = jsonDeFilmes[i]
 
-  console.log(filme.title)
-  console.log(filme.description)
 
-  console.log("****************************")
-}
-
-  
 
   
