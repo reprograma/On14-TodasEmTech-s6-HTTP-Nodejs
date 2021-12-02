@@ -74,4 +74,26 @@ const obj = [
         "Country":"USA",
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
+    
 ]
+//colocando Genre e Actors em uma lista
+console.log("Minha lista de Arrays contendo gênero e atores: ");
+
+let pushArray = [];
+let pushArrayobj = [];
+
+for (let j = 0; j <= obj.length - 1; j++) {
+  let pushFilme = obj[j];
+  pushArray.push(pushFilme.Genre);
+  pushArrayobj.push(pushFilme.Actors);
+  console.log(pushArray.toString());
+  console.log(pushArrayobj.toString());
+  console.log(
+    "*****************************************************************************************************"
+  );
+  console.log(pushArray);
+  console.log(pushArrayobj);
+  console.log(
+    "*****************************************************************************************************"
+  );
+}

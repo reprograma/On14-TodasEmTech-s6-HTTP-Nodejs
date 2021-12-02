@@ -39,3 +39,38 @@ for(let i=0; i <= jsonDeFilmes.length-1; i++){
   
 
   
+//console.log(obj)
+
+/*for(contador; limite; passo){
+  bloco de execução
+}*/
+
+
+/*for(let i=0;i<=4;i++){
+  console.log(i)
+}*/
+
+/*for(obj = [0]; obj <= [3]; obj++){
+  console.log(obj)
+}*/
+
+//console.log(obj[1])
+/*let i
+for( i = 0; i <=obj.length-1; obj++){
+  console.log(obj[i])
+}*/
+
+//LISTAR TODOS OS FILMES NO CONSOLE USANDO O FOR
+for(let i=0; i <= jsonDeFilmes.length-1; i++){
+  //console.log(jsonDeFilmes[i])
+  let filme = jsonDeFilmes[i]
+  console.log("Nome do filme : " + filme.title )
+  console.log("Descrição do filme : " + filme.description)
+  console.log("----------------------------------------------- " )
+}
+
+/*
+//Listando apenas um titulo
+console.log(jsonDeFilmes[0].title)
+//Listando apenas um titulo
+console.log(jsonDeFilmes[0].description)*/
