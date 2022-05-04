@@ -75,10 +75,19 @@ const todosFilmes = [
         "Awards":"Nominated for 3 Oscars. Another 40 wins & 66 nominations."
     }
 ]
-/*1)filmes.js 
-   apresente no console o Title, Plot e Awards*/
 
-   for (let i = 0; i <= todosFilmes.length-1; i++) {
+/*Outra forma de fazer
+
+for (const indice in todosFilmes) {
+  let filme = todosFilmes[indice];
+  console.log(filme)
+}
+*/
+
+//1)filmes.js 
+// apresente no console o Title, Plot e Awards
+
+ for (let i = 0; i <= todosFilmes.length-1; i++) {
        let filmes = todosFilmes[i];
 
        console.log (filmes.Title);
@@ -87,7 +96,11 @@ const todosFilmes = [
        console.log("\n*********************************\n");
        } 
 
-    //DESAFIO: Apresente Genre e Actors numa lista*/
+
+      //DESAFIO: Apresente Genre e Actors numa lista
+      //Map vai percorrer lista e criar uma lista somente com os itens que eu quero e guardar numa variavel e depois imprimir.*/
        let genero = todosFilmes.map(filmes => filmes.Genre)
        let ator = todosFilmes.map(filmes => filmes.Actors)
        console.log (genero, ator)
+    
+       

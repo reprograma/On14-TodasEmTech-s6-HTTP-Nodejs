@@ -160,7 +160,9 @@ for (let i = 0; i <= todasCores.length-1; i++) {
   /*  DESAFIO: apresente o nome da cor e o codigo numa string unica
           exemplo: "aliceblue - rgb: 240, 248, 255, 1" */
 
-  console.log ("\n************ DESAFIO *************\n")        
-  for (cor in todasCores[0]){
-      console.log(`${cor} - rgb: ${todasCores[0][cor]}`)
+  console.log ("\n************ DESAFIO *************\n")  
+
+  for (cor in todasCores[0]){ //vai pegar cada chave e chamar "cor"
+    let rgb = todasCores[0][cor] // vai pegar o valor da chave correspondete e chamar "rgb"
+    console.log(`${cor} - rgb: ${rgb}`)
   }

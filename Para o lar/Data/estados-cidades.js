@@ -5737,10 +5737,10 @@ const data = [{
 ]
 /*3) estados-cidades.js apresente no console o estado, a sigla e as cidades fora da array*/
 
-let estado = data [0].estados
+let estado = data [0].estados // acessando estados do index 0 e chamando de "estado"
 
 for (let i = 0; i < estado.length-1; i++) {
-  let estadoCidades = estado[i];
+  let estadoCidades = estado[i]; //percorrendo e guardando os estados
   
   console.log(estadoCidades.sigla);
   console.log(estadoCidades.nome);
